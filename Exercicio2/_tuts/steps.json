@@ -1,0 +1,660 @@
+{
+    "steps": [
+        {
+            "id": "start",
+            "name": "start",
+            "description": null
+        },
+        {
+            "id": "basics-first-echo",
+            "name": "Basics: First echo",
+            "description": null
+        },
+        {
+            "id": "basics-open-php-tag",
+            "name": "Basics: Open php tag",
+            "description": null
+        },
+        {
+            "id": "basics-variable",
+            "name": "Basics: Variable",
+            "description": null
+        },
+        {
+            "id": "basics-print-variable",
+            "name": "Basics: Print variable",
+            "description": null
+        },
+        {
+            "id": "basics-number-variable",
+            "name": "Basics: Number variable",
+            "description": null
+        },
+        {
+            "id": "basics-syntax-error",
+            "name": "Basics: Syntax error",
+            "description": null
+        },
+        {
+            "id": "basics-fix-syntax",
+            "name": "Basics: Fix syntax",
+            "description": null
+        },
+        {
+            "id": "functions-using-rand",
+            "name": "Functions: Using rand",
+            "description": null
+        },
+        {
+            "id": "functions-rand-with-argument",
+            "name": "Functions: rand with argument",
+            "description": null
+        },
+        {
+            "id": "functions-rand-2-arguments",
+            "name": "Functions: rand 2 arguments",
+            "description": null
+        },
+        {
+            "id": "functions-ucwords",
+            "name": "Functions: ucwords",
+            "description": null
+        },
+        {
+            "id": "functions-misisng-arg-error",
+            "name": "Functions: Misisng arg error",
+            "description": null
+        },
+        {
+            "id": "functions-using-strtolower-with-an-echo",
+            "name": "Functions: Using strtolower with an echo",
+            "description": null
+        },
+        {
+            "id": "functions-fxns-in-your-fxns-strrev",
+            "name": "Functions: fxns in your fxns: strrev",
+            "description": null
+        },
+        {
+            "id": "functions-call-order-with-strtoupper",
+            "name": "Functions: call order with strtoupper",
+            "description": null
+        },
+        {
+            "id": "functions-using-multiple-lines-vars",
+            "name": "Functions: Using multiple lines\/vars",
+            "description": null
+        },
+        {
+            "id": "functions-reverting-to-one-line",
+            "name": "Functions: Reverting to one line",
+            "description": null
+        },
+        {
+            "id": "loops-print-out-3-pets",
+            "name": "Loops: Print out 3 pets",
+            "description": null
+        },
+        {
+            "id": "loops-create-empty-array",
+            "name": "Loops: Create empty array",
+            "description": null
+        },
+        {
+            "id": "loops-put-pets-in-array",
+            "name": "Loops: Put pets in array",
+            "description": null
+        },
+        {
+            "id": "loops-first-foreach",
+            "name": "Loops: First foreach",
+            "description": null
+        },
+        {
+            "id": "loops-change-foreach-var-name",
+            "name": "Loops: Change foreach var name",
+            "description": null
+        },
+        {
+            "id": "loops-var-dump",
+            "name": "Loops: var_dump",
+            "description": null
+        },
+        {
+            "id": "loops-playing-with-indexes",
+            "name": "Loops: Playing with indexes",
+            "description": null
+        },
+        {
+            "id": "loops-undefined-index",
+            "name": "Loops: Undefined index",
+            "description": null
+        },
+        {
+            "id": "loops-remove-bad-index",
+            "name": "Loops: Remove bad index",
+            "description": null
+        },
+        {
+            "id": "loops-add-a-number-into-array",
+            "name": "Loops: Add a number into array",
+            "description": null
+        },
+        {
+            "id": "loops-remove-14-from-array",
+            "name": "Loops: Remove 14 from array",
+            "description": null
+        },
+        {
+            "id": "arrays2-creating-pancake-array",
+            "name": "Arrays2: Creating pancake array",
+            "description": null
+        },
+        {
+            "id": "arrays2-associative",
+            "name": "Arrays2: Associative",
+            "description": null
+        },
+        {
+            "id": "arrays2-adding-breed-key-later",
+            "name": "Arrays2: Adding breed key later",
+            "description": null
+        },
+        {
+            "id": "array2-adding-new-indexed-entry",
+            "name": "Array2: Adding new indexed entry",
+            "description": null
+        },
+        {
+            "id": "array3-add-pet1-3-arrays",
+            "name": "Array3: Add pet1-3 arrays",
+            "description": null
+        },
+        {
+            "id": "array3-var-dump-multi-dimensional-array",
+            "name": "Array3: var_dump multi-dimensional array",
+            "description": null
+        },
+        {
+            "id": "array3-accessing-keys",
+            "name": "Array3: Accessing keys",
+            "description": null
+        },
+        {
+            "id": "array3-using-cutepet-key",
+            "name": "Array3: Using cutePet key",
+            "description": null
+        },
+        {
+            "id": "array3-using-foreach-for-all-pets",
+            "name": "Array3: Using foreach for all pets",
+            "description": null
+        },
+        {
+            "id": "array3-count-pets",
+            "name": "Array3: count($pets)",
+            "description": null
+        },
+        {
+            "id": "array3-moving-all-logic-to-the-top",
+            "name": "Array3: Moving all logic to the top",
+            "description": null
+        },
+        {
+            "id": "array3-array-reverse",
+            "name": "Array3: array_reverse",
+            "description": null
+        },
+        {
+            "id": "json-dumping-out-json-encode",
+            "name": "JSON: Dumping out json_encode",
+            "description": null
+        },
+        {
+            "id": "json-file-get-contents",
+            "name": "JSON: file_get_contents",
+            "description": null
+        },
+        {
+            "id": "json-bad-filename",
+            "name": "JSON: bad filename",
+            "description": null
+        },
+        {
+            "id": "json-json-decode",
+            "name": "JSON: json_decode",
+            "description": null
+        },
+        {
+            "id": "json-json-decode-as-associative-array",
+            "name": "JSON: json_decode as associative array",
+            "description": null
+        },
+        {
+            "id": "json-using-the-file-json-for-pets",
+            "name": "JSON: Using the file json for pets",
+            "description": null
+        },
+        {
+            "id": "json-changing-filename-key-to-image",
+            "name": "JSON: Changing filename key to image",
+            "description": null
+        },
+        {
+            "id": "json-move-file-into-data",
+            "name": "JSON: Move file into data",
+            "description": null
+        },
+        {
+            "id": "if-remove-age-key-from-json",
+            "name": "If: Remove age key from json",
+            "description": null
+        },
+        {
+            "id": "if-if-with-just-true",
+            "name": "If: if with just true",
+            "description": null
+        },
+        {
+            "id": "if-array-key-exists",
+            "name": "If: array_key_exists",
+            "description": null
+        },
+        {
+            "id": "if-with-else",
+            "name": "If: with else",
+            "description": null
+        },
+        {
+            "id": "if-set-key-to-blank",
+            "name": "If: set key to blank",
+            "description": null
+        },
+        {
+            "id": "if-multi-level-if",
+            "name": "If: Multi-level if",
+            "description": null
+        },
+        {
+            "id": "if-else-for-inner-if",
+            "name": "If: else for inner if",
+            "description": null
+        },
+        {
+            "id": "if-using",
+            "name": "If: Using &&",
+            "description": null
+        },
+        {
+            "id": "if-look-for-hidden-age",
+            "name": "If: Look for hidden age",
+            "description": null
+        },
+        {
+            "id": "if-elseif",
+            "name": "If: elseif",
+            "description": null
+        },
+        {
+            "id": "if-middle-part-of-elseif",
+            "name": "If: Middle part of elseif",
+            "description": null
+        },
+        {
+            "id": "if-fix-syntax",
+            "name": "If: Fix syntax",
+            "description": null
+        },
+        {
+            "id": "new-page-create-contact-php",
+            "name": "New Page: Create contact.php",
+            "description": null
+        },
+        {
+            "id": "create-function-use-get-pets",
+            "name": "Create Function: use get_pets()",
+            "description": null
+        },
+        {
+            "id": "create-function-create-get-pets",
+            "name": "Create Function: create get_pets()",
+            "description": null
+        },
+        {
+            "id": "create-function-return-a-value",
+            "name": "Create Function: Return a value",
+            "description": null
+        },
+        {
+            "id": "create-function-add-real-get-pets-body",
+            "name": "Create Function: Add real get_pets() body",
+            "description": null
+        },
+        {
+            "id": "include-changing-contact-page",
+            "name": "Include: Changing contact page",
+            "description": null
+        },
+        {
+            "id": "include-use-get-pets-on-contact-php",
+            "name": "Include: Use get_pets on contact.php",
+            "description": null
+        },
+        {
+            "id": "include-require-index-php",
+            "name": "Include: require index.php",
+            "description": null
+        },
+        {
+            "id": "include-new-functions-php-require",
+            "name": "Include: New functions.php + require",
+            "description": null
+        },
+        {
+            "id": "include-require-once",
+            "name": "Include: require_once",
+            "description": null
+        },
+        {
+            "id": "include-require",
+            "name": "Include: require",
+            "description": null
+        },
+        {
+            "id": "layout-create-and-use-header-footer",
+            "name": "Layout: Create and use header\/footer",
+            "description": null
+        },
+        {
+            "id": "form-create-pets-new-php",
+            "name": "Form: Create pets_new.php",
+            "description": null
+        },
+        {
+            "id": "form-pets-new-php-header-footer",
+            "name": "Form: pets_new.php header+footer",
+            "description": null
+        },
+        {
+            "id": "form-add-bootstrap-layout",
+            "name": "Form: Add Bootstrap Layout",
+            "description": null
+        },
+        {
+            "id": "form-header-links",
+            "name": "Form: Header Links",
+            "description": null
+        },
+        {
+            "id": "form-build-html-form",
+            "name": "Form: Build HTML form",
+            "description": null
+        },
+        {
+            "id": "form-add-form-tag",
+            "name": "Form: Add form tag",
+            "description": null
+        },
+        {
+            "id": "form-submit-var-dump-post",
+            "name": "Form Submit: var_dump $_POST",
+            "description": null
+        },
+        {
+            "id": "form-submit-var-dump-invented-var",
+            "name": "Form Submit: var_dump invented var",
+            "description": null
+        },
+        {
+            "id": "form-submit-dump-each-variable",
+            "name": "Form Submit: dump each variable",
+            "description": null
+        },
+        {
+            "id": "form-submit-array-key-exists",
+            "name": "Form Submit: array_key_exists",
+            "description": null
+        },
+        {
+            "id": "form-submit-isset-instead",
+            "name": "Form Submit: isset instead",
+            "description": null
+        },
+        {
+            "id": "form-submit-isset-on-all-fields",
+            "name": "Form Submit: isset on all fields",
+            "description": null
+        },
+        {
+            "id": "form-submit-var-dump-server",
+            "name": "Form Submit: var_dump $_SERVER",
+            "description": null
+        },
+        {
+            "id": "form-submit-checking-for-request-methdo",
+            "name": "Form Submit: Checking for REQUEST_METHDO",
+            "description": null
+        },
+        {
+            "id": "saving-get-pets",
+            "name": "Saving: get_pets",
+            "description": null
+        },
+        {
+            "id": "saving-create-new-pet-array",
+            "name": "Saving: Create new pet array",
+            "description": null
+        },
+        {
+            "id": "saving-add-pet-to-pets",
+            "name": "Saving: Add pet to $pets",
+            "description": null
+        },
+        {
+            "id": "saving-json-encode-and-file-put-contents",
+            "name": "Saving: json_encode and file_put_contents",
+            "description": null
+        },
+        {
+            "id": "saving-adding-missing-require",
+            "name": "Saving: Adding missing require",
+            "description": null
+        },
+        {
+            "id": "saving-json-pretty-print",
+            "name": "Saving: JSON_PRETTY_PRINT",
+            "description": null
+        },
+        {
+            "id": "redirect-header-and-die",
+            "name": "Redirect: header and die",
+            "description": null
+        },
+        {
+            "id": "reorg-create-save-pets",
+            "name": "Reorg: Create save_pets",
+            "description": null
+        },
+        {
+            "id": "reorg-guts-of-save-pets",
+            "name": "Reorg: Guts of save_pets",
+            "description": null
+        },
+        {
+            "id": "reorg-save-pets-argument",
+            "name": "Reorg: save_pets argument",
+            "description": null
+        },
+        {
+            "id": "reorg-call-save-pets-with-argument",
+            "name": "Reorg: Call save_pets with argument",
+            "description": null
+        },
+        {
+            "id": "reorg-passing-string-to-save-pets",
+            "name": "Reorg: Passing string to save_pets",
+            "description": null
+        },
+        {
+            "id": "rreorg-full-working-save-pets-process",
+            "name": "RReorg: Full working save_pets process",
+            "description": null
+        },
+        {
+            "id": "db-new-pdo",
+            "name": "DB: New PDO",
+            "description": null
+        },
+        {
+            "id": "db-first-query",
+            "name": "DB: First Query",
+            "description": null
+        },
+        {
+            "id": "db-using-query-instead-of-get-pets",
+            "name": "DB: Using query instead of get_pets",
+            "description": null
+        },
+        {
+            "id": "db-dumping-pdo",
+            "name": "DB: Dumping $pdo",
+            "description": null
+        },
+        {
+            "id": "db-calling-query-like-a-flat-function",
+            "name": "DB: Calling query like a flat function",
+            "description": null
+        },
+        {
+            "id": "db-removing-debug-code",
+            "name": "DB: Removing debug code",
+            "description": null
+        },
+        {
+            "id": "db-moving-db-logic-to-get-pets",
+            "name": "DB: Moving db logic to get_pets",
+            "description": null
+        },
+        {
+            "id": "db-create-configuration-file",
+            "name": "DB: Create configuration file",
+            "description": null
+        },
+        {
+            "id": "config-rename-variable",
+            "name": "Config: Rename variable",
+            "description": null
+        },
+        {
+            "id": "config-return-from-config-php",
+            "name": "Config: Return from config.php",
+            "description": null
+        },
+        {
+            "id": "limit-hardcode-limit-3",
+            "name": "Limit: Hardcode LIMIT 3",
+            "description": null
+        },
+        {
+            "id": "limit-add-argument-with-sql-injection",
+            "name": "Limit: Add argument with SQL injection",
+            "description": null
+        },
+        {
+            "id": "sql-injection-show-example",
+            "name": "SQL Injection: Show example",
+            "description": null
+        },
+        {
+            "id": "optional-arg-pass-0-to-get-pets",
+            "name": "Optional Arg: Pass 0 to get_pets",
+            "description": null
+        },
+        {
+            "id": "optional-only-using-limit-in-if",
+            "name": "Optional: Only using $limit in if",
+            "description": null
+        },
+        {
+            "id": "optional-make-argument-optional",
+            "name": "Optional: Make argument optional",
+            "description": null
+        },
+        {
+            "id": "optional-default-limit-null",
+            "name": "Optional: Default $limit = null",
+            "description": null
+        },
+        {
+            "id": "show-page-creating-show-page-and-link",
+            "name": "Show Page: Creating show page and link",
+            "description": null
+        },
+        {
+            "id": "show-page-dump-get",
+            "name": "Show Page: Dump $_GET",
+            "description": null
+        },
+        {
+            "id": "show-page-get-get-id",
+            "name": "Show Page: Get $_GET['id']",
+            "description": null
+        },
+        {
+            "id": "show-page-fill-out-html-guts",
+            "name": "Show Page: Fill out HTML guts",
+            "description": null
+        },
+        {
+            "id": "get-pet-create-the-function",
+            "name": "get_pet: Create the function",
+            "description": null
+        },
+        {
+            "id": "get-pet-add-the-function",
+            "name": "get_pet: Add the query",
+            "description": null
+        },
+        {
+            "id": "get-pet-try-using-an-outside-variable",
+            "name": "get_pet: Try using an outside variable",
+            "description": null
+        },
+        {
+            "id": "geget-pet-removing-test-variable",
+            "name": "geget_pet: Removing test variable",
+            "description": null
+        },
+        {
+            "id": "get-pet-finishing-get-pet-query-execution",
+            "name": "get_pet: Finishing get_pet query execution",
+            "description": null
+        },
+        {
+            "id": "sql-injection-dumping-query",
+            "name": "SQL Injection: Dumping query",
+            "description": null
+        },
+        {
+            "id": "sql-injection-get-pet-prepared-statement",
+            "name": "SQL Injection: get_pet prepared statement",
+            "description": null
+        },
+        {
+            "id": "sql-injection-get-pets",
+            "name": "SQL Injection: get_pets",
+            "description": null
+        },
+        {
+            "id": "sql-errors-setting-attr-errmode",
+            "name": "SQL Errors: Setting ATTR_ERRMODE",
+            "description": null
+        },
+        {
+            "id": "sql-errors-setting-param-as-integer",
+            "name": "SQL Errors: Setting param as integer",
+            "description": null
+        }
+    ],
+    "sha": "d842b1341abd709120afe71d5e935c9afa6439bd"
+}

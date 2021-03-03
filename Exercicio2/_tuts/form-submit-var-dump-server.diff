@@ -1,0 +1,11 @@
+diff --git a/pets_new.php b/pets_new.php
+index 4116513..c982c6b 100644
+--- a/pets_new.php
++++ b/pets_new.php
+@@ -1,4 +1,6 @@
+ <?php
++var_dump($_SERVER);die;
++
+ if (isset($_POST['name'])) {
+     $name = $_POST['name'];
+ } else {
