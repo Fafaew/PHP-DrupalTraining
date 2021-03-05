@@ -40,7 +40,4 @@ function validaTriangulo($L1, $L2, $L3): bool
 
 echo triangulo(10, 10, 12);
 
-
-
-
 ?>

@@ -80,8 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <textarea name="bio" id="pet-bio" class="form-control"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="pet-bio"
-                     class="control-label">Pet CPF</label>
+                    <label for="pet-bio" class="control-label">CPF</label>
                     <input type="text" name="cpf" value="<?php echo $cpf?>";
                      id="cpf" class="form-control"/>
                 </div>
@@ -90,11 +89,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                          echo 'Cpf válido.';
                      } else {
                          echo 'Cpf inválido.';
-                     }
-                     
-                
+                     }         
                 ?></h2>
-
                 <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add</button>
             </form>
 
