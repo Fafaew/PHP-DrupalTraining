@@ -1,6 +1,6 @@
 <?php
 
-class Livro
+class Livro implements Publicacao
  
 {    
     private $_titulo;    
@@ -14,6 +14,23 @@ class Livro
     private $_aberto;    
     
     private $_leitor;
+
+
+    public function __construct(
+        string $titulo,
+        string $autor,
+        int $totPaginas,
+        int $pagAtual,
+        bool $aberto,
+        Pessoa $leitor
+    ) {
+        $this->_titulo = $titulo;
+        $this->_autor = $autor;
+        $this->_totPaginas = $totPaginas;
+        $this->_pagAtual = $pagAtual;
+        $this->_aberto = $aberto;
+        $this->_leitor = $leitor;
+    }
 
     public function getTitulo() 
     {
@@ -72,6 +89,28 @@ class Livro
     public function setLeitor($leitor)
     {
         $this->_leitor = $leitor;
+    }
+
+    public function abrirLivro() 
+    {
+        return 'Livro aberto';
+    }
+
+    public function fecharLivro() 
+    {
+        return 'Livro fechado';
+    }
+
+    public function avancarPag() 
+    {
+        $this->_pagAtual++;
+        return 'Página atual: '.$this->_pagAtual;
+    }
+    
+    public function voltarPag() 
+    {
+        $this->_pagAtual--;
+        return 'Página atual: '.$this->_pagAtual;
     }
 }
 
