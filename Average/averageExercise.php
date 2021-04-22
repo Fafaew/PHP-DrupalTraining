@@ -9,5 +9,5 @@
         $average = $total/count($number);
         echo "Average: $average";
     }
-    average($numbers);
+    average($numbers); 
 ?>
