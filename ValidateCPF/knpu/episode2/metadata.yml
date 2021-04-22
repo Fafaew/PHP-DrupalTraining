@@ -1,0 +1,59 @@
+title:  Course 2: How to stop worrying & start writing PHP
+summary: |
+    This is episode 2 of our Epic PHP series. Find episode 1
+    [here](http://knpuniversity.com/screencast/php-ep1).
+
+    In this episode, we're learning all about forms, form submissions, how
+    this translates the the HTTP Request/Response world, and saving files
+    to the disk. This is a *huge* step forward, and all in under 30 minutes!
+    You'll learn:
+    
+    * How to access submitted form data
+    * What the HTTP method is for a request (and how to read it)
+    * How to save files
+    * How to redirect a user
+    * What request and response "headers" are
+    * Better code organization with functions.
+
+    This will get you ready for episode 3... which is all about databases!
+
+illustration: php-ep2.png
+tuts_hero:
+    start_step:  "Layout: Create and use header/footer"
+    finish_step: "RReorg: Full working save_pets process"
+
+challenge_repo: knpuniversity/php-beginner-series-challenges
+
+chapters:
+    request-new-page:
+        is_free:    true
+        video_key:  140189925
+        challenges:
+            - requestnewpage_requestpostdatamc
+    create-form:
+        video_key:  140189922
+        challenges:
+            - createform_postversusgetmc
+            - createform_createhtmlformcoding
+    reading-form-data:
+        video_key:  140189923
+        challenges:
+            - readingformdata_fetchpostdatacoding
+            - readingformdata_checkhttpmethodcoding
+            - readingformdata_arraykeyexistsissetmc
+            - readingformdata_playingwithservercoding
+    saving-pets:
+        video_key:  140189924
+        challenges:
+            - savingpets_formsubmitlogiccoding
+            - savingpets_jsonencodereadablemc
+    redirecting:
+        video_key:  140189927
+        challenges:
+            - artofredirecting_formsubmitredirectmc
+            - artofredirecting_redirectusertoylistcoding
+            - artofredirecting_redirectresponsemc
+    code-cleanup:
+        video_key:  140189926
+        challenges:
+            - cleaningupwithsavedpets_refactortoysavingcoding
