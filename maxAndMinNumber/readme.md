@@ -1,0 +1,1 @@
+# function that receives an indeterminate number of parameters and print the largest and the smallest of them.
