@@ -1,0 +1,46 @@
+
+// Variables
+$fontFamily: 'Roboto', sans-serif;
+$titleFontFamily: 'Roboto', sans-serif;
+$baseFontSize: 14px;
+$bodyBGColor: #333;
+$baseFontColor: #999;
+
+$linkColor: #33d8bf;
+$linkColorHover: #1aad96;
+
+// Header
+$headerBGColor: #333;
+$headerTextColor: #fff;
+
+// Menu Color
+$menuTextColor: $linkColor;
+$menuTextActiveColor: $linkColor;
+
+$mobileMenuBg: #333;
+$desktopMenuTextColor: #fff;
+$desktopMenuDropDownBg: $linkColor;
+$borderColor: rgba(78, 77, 77, 0.40);
+
+// Mixin
+@mixin globalButton(){
+	font-size: 1rem;
+	background: $linkColor;
+	cursor: pointer;
+	color: #fff;
+	padding: 14px 30px;
+	line-height: 100%;
+	margin-right: 2px;
+	display: inline-block;
+	border: 0;
+	@include border-radius(0px);
+	@include transition(all 0.3s);
+	@include box-shadow(2px 2px 0px $linkColorHover);
+}
+
+@mixin globalButtonHover(){
+	color: #fff;
+    background: $linkColorHover;
+	border: 0;
+	box-shadow: 4px 4px 0px $linkColor;;
+}

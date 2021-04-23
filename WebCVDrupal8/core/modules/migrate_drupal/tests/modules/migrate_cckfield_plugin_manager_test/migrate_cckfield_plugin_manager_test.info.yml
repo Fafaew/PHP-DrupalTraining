@@ -1,0 +1,11 @@
+name: 'Migrate cck field plugin manager test'
+type: module
+description: 'Example module demonstrating the cck field plugin manager in the Migrate API.'
+package: Testing
+# version: VERSION
+core: 8.x
+
+# Information added by Drupal.org packaging script on 2021-04-21
+version: '8.9.14'
+project: 'drupal'
+datestamp: 1619021571

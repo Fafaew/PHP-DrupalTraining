@@ -1,0 +1,145 @@
+.widgets{
+	padding: 20px 0;
+	border-bottom: 1px solid $borderColor;
+}
+
+.main-content{
+	padding: 0 0 50px 0;
+}
+
+.features{
+	background-color: #444;
+	text-align: center;
+
+	.features-list{
+		.region{
+			background: #fff;
+			background: url('../images/block-bg.png');
+			overflow: hidden;
+		}
+	}
+}
+
+.footer{
+	tbody tr:hover, tbody tr:focus {
+	    background: none;
+	}
+}
+
+.clients{
+	.region{
+		ul {
+			li{
+				display: inline-block;
+				width: 100%;
+				text-align: center;
+
+				img{
+					max-width: 200px;
+				}
+			}
+		}
+	}
+}
+
+.updates{
+	.card{
+		background: #222;
+	}
+}
+
+.services{
+	text-align: center;
+}
+
+.top-message{
+	background: #333;
+    color: #fff;
+    padding: 10px 20px;
+	border-radius: 5px;
+	text-align: center;
+
+	a{
+		text-decoration: underline;
+	}
+	
+	*{
+		color: #fff;
+	}
+}
+
+// Testimonials
+.testimonials-wrap{
+	background: #fafafa;
+	border-top: solid 1px #e3e3e3;
+	border-bottom: solid 1px #e3e3e3;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 1em;
+	line-height: 160%;
+}
+
+.region-testimonials{
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.testimonials-pic{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-right: 10px;
+}
+
+.testimonials-pic img{
+	@include border-radius(50%);
+}
+
+.testimonials-author{
+	padding: 0 5px;
+	font-size: .75em;
+	color: #555;
+}
+
+// Price
+.price-table{
+	.card-header{
+		border: 0;
+    	padding: 20px 0;
+	}
+
+	ul li {
+	    list-style: none;
+	    border-bottom: 1px solid #eee;
+	    padding-bottom: 10px;
+	    margin-bottom: 10px;
+	}
+}
+
+// Front Page
+.path-frontpage .feed-icon{
+ 	display: none;
+}
+
+// Team
+.team{
+	.team-list{
+		.region{
+			background: #efefef;
+			overflow: hidden;
+			padding: 10px;
+			border: 1px solid #eaeaea;
+		}
+	}
+}
+
+// Bottom Widgets
+.bottom-widget{
+	background: #fff;
+}
+
+.path-frontpage .bottom-widgets{
+	padding: 20px 0;
+}
+
