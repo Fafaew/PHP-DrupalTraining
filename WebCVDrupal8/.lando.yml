@@ -1,4 +1,0 @@
-name: webcvdrupal8
-recipe: drupal8
-config:
-  webroot: .
