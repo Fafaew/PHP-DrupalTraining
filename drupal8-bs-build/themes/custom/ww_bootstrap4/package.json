@@ -1,0 +1,23 @@
+{
+  "name": "ww_bootstrap4",
+  "version": "1.0.0",
+  "description": "## Instructions",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "npx mix",
+    "watch": "npx mix watch",
+    "prod": "npm run production",
+    "production": "npx mix -p"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.18",
+    "postcss": "^8.2.13",
+    "sass": "^1.32.11",
+    "sass-loader": "^11.0.1"
+  }
+}
