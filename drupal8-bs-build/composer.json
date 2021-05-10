@@ -23,6 +23,7 @@
         "drupal/core-vendor-hardening": "^8.8",
         "drupal/ds": "^3.12",
         "drupal/field_group": "^3.1",
+        "drupal/inline_entity_form": "^1.0@RC",
         "drush/drush": "^10.4"
     },
     "conflict": {
